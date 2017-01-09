@@ -6,7 +6,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ws.tilda.anastasia.interactivestory.MainActivity">
+    tools:context="ws.tilda.anastasia.interactivestory.ui.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -41,4 +41,5 @@
         android:layout_marginBottom="37dp"
         android:hint="Enter your name to start"
         android:maxLength="30"/>
+
 </RelativeLayout>

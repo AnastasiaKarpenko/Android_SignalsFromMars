@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Signals from Mars</string>
     <string name="first_image_description">Signals from Mars</string>
+    <string name="title_activity_story">StoryActivity</string>
+    <string name="key_name">name</string>
+
 </resources>
