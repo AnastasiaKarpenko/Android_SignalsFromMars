@@ -10,6 +10,8 @@ import android.widget.EditText;
 import ws.tilda.anastasia.interactivestory.R;
 import ws.tilda.anastasia.interactivestory.ui.StoryActivity;
 
+import static android.R.attr.name;
+
 public class MainActivity extends AppCompatActivity {
     private EditText mNameField;
     private Button mButton;
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mNameField = (EditText) findViewById(R.id.nameEditText);
         mButton = (Button) findViewById(R.id.startButton);
 
+
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 startStory(name);
             }
         });
+
+
     }
 
     private void startStory(String name) {
@@ -37,4 +42,6 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(getString(R.string.key_name), name);
         startActivity(intent);
     }
+
+
 }
