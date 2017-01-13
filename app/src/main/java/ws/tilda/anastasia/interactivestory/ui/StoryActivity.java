@@ -34,7 +34,7 @@ public class StoryActivity extends AppCompatActivity {
         Intent intent = getIntent();
         mName = intent.getStringExtra(getString(R.string.key_name));
 
-        if(mName == null) {
+        if(mName.isEmpty()) {
             mName = "Friend";
         }
         Log.d(TAG, mName);
