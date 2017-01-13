@@ -6,7 +6,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ws.tilda.anastasia.interactivestory.ui.MainActivity">
+    tools:context="ws.tilda.anastasia.interactivestory.ui.MainActivity"
+    android:background="@android:color/white">
 
     <ImageView
         android:layout_width="match_parent"
@@ -27,7 +28,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/startButton"/>
+        android:id="@+id/startButton"
+        android:background="@android:color/white"
+        android:textColor="#ff3a8aec"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -39,7 +42,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="37dp"
-        android:hint="Enter your name to start"
+        android:hint="Enter your name to begin"
         android:maxLength="30"/>
 
 </RelativeLayout>

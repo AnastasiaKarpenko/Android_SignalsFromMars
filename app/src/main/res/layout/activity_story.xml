@@ -6,10 +6,11 @@
     android:id="@+id/activity_story"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ws.tilda.anastasia.interactivestory.ui.StoryActivity">
+    tools:context="ws.tilda.anastasia.interactivestory.ui.StoryActivity"
+    android:background="@android:color/white">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/page0"
         android:id="@+id/storyImageView"
@@ -19,18 +20,40 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
-    <EditText
+    <Button
+        android:text="Stop and investigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/choiceButton2"
+        android:background="@android:color/white"
+        android:textColor="#FF3a8aec"/>
+
+    <Button
+        android:text="Continue home to Earth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choiceButton1"
+        android:layout_above="@+id/choiceButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:textColor="#FF3a8aec"/>
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:id="@+id/storyTextView"
         android:text="You continue your course to Earth. Two days later, you receive a transmission from HQ saying that they have detected some sort of anomaly on the surface of Mars near an abandoned rover. They ask you to investigate, but ultimately the decision is yours because your mission has already run much longer than planned and supplies are low."
         android:paddingLeft="30dp"
-        android:layout_below="@+id/storyImageView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:paddingRight="30dp"
         android:paddingTop="15dp"
-        android:lineSpacingMultiplier="1.2"/>
+        android:lineSpacingMultiplier="1.2"
+        android:layout_below="@+id/storyImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
 </RelativeLayout>

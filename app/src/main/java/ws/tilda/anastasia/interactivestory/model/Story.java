@@ -69,5 +69,9 @@ public class Story {
                         "will be able to investigate...");
     }
 
+    public Page getPage(int pageNumber) {
+        return mPages[pageNumber];
+    }
+
 }
 

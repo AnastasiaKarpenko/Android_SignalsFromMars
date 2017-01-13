@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import ws.tilda.anastasia.interactivestory.R;
+import ws.tilda.anastasia.interactivestory.model.Page;
+import ws.tilda.anastasia.interactivestory.model.Story;
 
 public class StoryActivity extends AppCompatActivity {
     public static final String TAG = StoryActivity.class.getSimpleName();
+    private Story mStory = new Story();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +25,10 @@ public class StoryActivity extends AppCompatActivity {
             name = "Friend";
         }
         Log.d(TAG, name);
+    }
+
+    public void loadPage() {
+        Page page = mStory.getPage(0);
+
     }
 }
