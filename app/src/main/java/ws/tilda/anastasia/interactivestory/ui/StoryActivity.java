@@ -50,7 +50,6 @@ public class StoryActivity extends AppCompatActivity {
     public void loadPage(int choice) {
         mCurrentPage = mStory.getPage(choice);
 
-//      Drawable drawable = getResources().getDrawable(mCurrentPage.getImageId()); getDrawable(int) is depreciated
         Drawable drawable = ContextCompat.getDrawable(this, mCurrentPage.getImageId());
         mImageView.setImageDrawable(drawable);
 
