@@ -10,3 +10,7 @@ Topics covered in this project:
 - Passing data from one activity to another
 - Using the MVC design pattern
 
+Screenshots of the app: 
+
+![alt tag](https://github.com/AnastasiaKarpenko/Android_SignalsFromMars/blob/master/SignalsFromMars_screenshot.png)
+
