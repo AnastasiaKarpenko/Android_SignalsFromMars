@@ -1,4 +1,4 @@
-# Android_SignalsFromMars
+# Android_SignalsFromMars ![alt tag](https://github.com/AnastasiaKarpenko/Android_SignalsFromMars/blob/master/app/src/main/res/mipmap-hdpi/ic_launcher.png)
 A simple choose-your-own-adventure story app.
 
 Images and text (C)Teamtreehouse.
